@@ -1,9 +1,10 @@
 console.log("Trabalhando com listas")
 const listaDeDestino = new Array(
     'Goiânia', 
-    'Aparecid de Goiânia',
+    'Aparecida de Goiânia',
     'Rio Verde'
 )
 
-listaDeDestino.push('Jataí')
+listaDeDestino.push('Aparecida de Goiânia')
+listaDeDestino.splice(0,1)
 console.table(listaDeDestino);
