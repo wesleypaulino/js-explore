@@ -1,1 +1,1 @@
-console.log("Rodando no Node.js")
+console.table("Rodando no Node.js")
